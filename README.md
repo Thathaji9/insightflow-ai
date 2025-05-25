@@ -1,7 +1,7 @@
 # InsightFlow AI - Your Data Storyteller & Dynamic Dashboard
 
-![InsightFlow AI <img width="1468" alt="Screenshot 2025-05-25 at 22 10 15" src="https://github.com/user-attachments/assets/28e13558-e177-4b22-a2d5-c4c8fca51359" />
-Dashboard Screenshot Placeholder](https://via.placeholder.com/1200x600?text=InsightFlow+AI+Dashboard+Screenshot+Here)
+<img width="1468" alt="Screenshot 2025-05-25 at 22 10 15" src="https://github.com/user-attachments/assets/77d4dd6e-143b-4ede-84b9-a2e55a8b9bc2" />
+
 
 **InsightFlow AI** is an innovative, AI-powered web application designed to transform raw data into compelling stories and interactive dashboards. It simplifies the process of data analysis, making sophisticated insights accessible to everyone, regardless of their technical expertise. Upload your data, let the AI work its magic, and build dynamic, shareable dashboards with ease.
 
