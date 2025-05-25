@@ -71,37 +71,6 @@ Follow these steps to get InsightFlow AI running on your local machine:
 
     The application should now be accessible at [http://localhost:3000](http://localhost:3000) in your web browser.
 
-## ⚙️ Project Structure Overview
-Insightflow-ai/
-├── public/                 # Static assets (favicons, images, manifest.json)
-├── src/
-│   ├── app/                # Next.js App Router root (main pages, layout, global styles)
-│   │   ├── favicon.ico     # Project favicon (auto-detected)
-│   │   ├── icon.png        # Project icon (auto-detected)
-│   │   ├── globals.css     # Global Tailwind CSS and custom styles
-│   │   ├── layout.tsx      # Root layout, metadata, CSS import
-│   │   └── page.tsx        # Main application page (client component)
-│   ├── components/         # Reusable, generic UI components (e.g., buttons, modals, shared widgets)
-│   │   ├── ChartWidget.tsx # Core Chart component (if not handled by renderer)
-│   │   ├── D3Widget.tsx    # D3-specific visualization wrapper
-│   │   ├── TableWidget.tsx # Table display component
-│   │   ├── TextWidget.tsx  # Simple text display component
-│   │   └── WidgetConfigModal.tsx # Modal for configuring widget properties
-│   └── features/           # Feature-specific logic, components, and hooks
-│       └── dashboard/      # Contains all dashboard-related elements
-│           ├── DashboardGrid.tsx      # The main RGL grid component
-│           ├── DashboardHeader.tsx    # Top navigation/upload area
-│           ├── DashboardSidebar.tsx   # Left sidebar for toolbox and AI controls
-│           ├── WidgetRenderer.tsx     # Renders the correct widget type
-│           ├── types.ts               # TypeScript type definitions for dashboard state, widgets, etc.
-│           └── useDashboardLogic.ts   # Custom hook managing core dashboard logic and state
-├── tailwind.config.js      # Tailwind CSS configuration
-├── postcss.config.js       # PostCSS configuration for Tailwind
-├── next.config.js          # Next.js configuration
-├── README.md               # This file
-├── package.json            # Project dependencies and scripts
-└── tsconfig.json           # TypeScript configuration
-
 ## 🤝 Contributing
 
 We welcome contributions to InsightFlow AI! If you have ideas for new features, improvements, or discover any bugs, please feel free to:
