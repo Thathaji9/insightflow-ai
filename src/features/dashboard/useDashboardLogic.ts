@@ -304,7 +304,7 @@ export const useDashboardLogic = () => {
 
   const onDropNewWidget = useCallback((layout: Layout[], layoutItem: Layout, _event: Event) => {
     if (!draggingToolboxItem) {
-      console.warn("Drop event occurred but no toolbox item was being dragged.");
+      console.warn("Drop event occurred but no toolbox item was being dragged.", _event, layout);
       return;
     }
 

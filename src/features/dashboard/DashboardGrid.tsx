@@ -108,8 +108,8 @@ const DashboardGrid: React.FC<DashboardGridProps> = ({
           )}
         </div>
         <p className="mt-4 text-gray-600 text-sm">
-          Click "Analyze Data with AI" on the left to generate insights and
-          build your dashboard.
+          Click &quot;Analyze Data with AI&quot; on the left to generate
+          insights and build your dashboard.
         </p>
       </div>
     );
@@ -120,8 +120,8 @@ const DashboardGrid: React.FC<DashboardGridProps> = ({
           <div className="text-center text-gray-600 p-8 border-2 border-dashed border-gray-300 rounded-lg flex flex-col items-center justify-center h-full">
             <p className="mb-4 text-lg">Your dashboard is empty!</p>
             <p className="mb-4 text-md">
-              Drag widgets from the "Dashboard Toolbox" on the left, or analyze
-              data to get AI-suggested charts.
+              Drag widgets from the &quot;Dashboard Toolbox&quot; on the left,
+              or analyze data to get AI-suggested charts.
             </p>
           </div>
         ) : (

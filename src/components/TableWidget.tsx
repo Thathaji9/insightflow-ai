@@ -34,7 +34,7 @@ const TableWidget: React.FC<TableWidgetProps> = ({ columns, rows }) => {
             <tr key={rowIndex}>
               {columns.map((col, colIndex) => (
                 <td
-                  key={`<span class="math-inline">\{rowIndex\}\-</span>{colIndex}`}
+                  key={`<span class="math-inline">\{rowIndex\}\-</span>${colIndex}`}
                   className="px-4 py-2 whitespace-nowrap text-sm text-gray-900"
                 >
                   {String(row[col] || "")}
